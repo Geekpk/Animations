@@ -61,6 +61,7 @@
 - (void)parameterSetting {
     CATransform3D pt = CATransform3DIdentity;
     pt.m34 = -1./500;
+    
     self.view.layer.sublayerTransform = pt;
     
     //    CATransform3D c1t = CATransform3DIdentity;

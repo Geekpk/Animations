@@ -21,7 +21,7 @@
     
 }
 - (void)normalSetting {
-    NSArray *arr = @[@"Shadows", @"CAShapeLayer", @"AnchorPoint",@"CATransformLayer",@"CAGradientLayer" , @"CAReplicatorLayer"];
+    NSArray *arr = @[@"Shadows", @"CAShapeLayer", @"AnchorPoint",@"CATransformLayer",@"CAGradientLayer" , @"CAReplicatorLayer",@"CAScrollLayer",@"CAScrollLayer", @"CATiledLayer",@"CAEAGLLayer", @"Test"];
     [self.dataSource addObjectsFromArray:arr];
 }
 - (void)parameterSetting {
@@ -41,12 +41,13 @@
     cell.layer.masksToBounds = YES;
     cell.textLabel.text = self.dataSource[indexPath.row];
     cell.textLabel.textAlignment = NSTextAlignmentCenter;
-    cell.backgroundColor = [UIColor colorWithRed:(arc4random() % 255) /255. green:(arc4random() % 255) /255. blue:(arc4random() % 255) /255. alpha:1];
-    if (CGColorEqualToColor(cell.backgroundColor.CGColor, [UIColor whiteColor].CGColor)) {
-        cell.textLabel.textColor = [UIColor blackColor];
-    }else{
-        cell.textLabel.textColor = [UIColor whiteColor];
-    }
+    cell.textLabel.textColor = [UIColor colorWithRed:(arc4random() % 255) /255. green:(arc4random() % 255) /255. blue:(arc4random() % 255) /255. alpha:1];
+//    cell.backgroundColor = [UIColor lightGrayColor];
+//    if (CGColorEqualToColor(cell.backgroundColor.CGColor, [UIColor whiteColor].CGColor)) {
+//        cell.textLabel.textColor = [UIColor blackColor];
+//    }else{
+//        cell.textLabel.textColor = [UIColor whiteColor];
+//    }
     
     return cell;
 }
@@ -63,7 +64,7 @@
     UIViewController *obj =  [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:clsstr];
     obj.title = self.dataSource[indexPath.row];
 //    obj.view.backgroundColor = [UIColor whiteColor];
-    obj.view.backgroundColor = cell.backgroundColor;
+//    obj.view.backgroundColor = cell.backgroundColor;
     
     [self.navigationController pushViewController:obj animated:YES];
 }

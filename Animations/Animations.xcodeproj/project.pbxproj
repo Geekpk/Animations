@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A277125B1F04E1AB0001FBC5 /* CAScrollLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A277125A1F04E1AB0001FBC5 /* CAScrollLayerVC.m */; };
+		A277125E1F04E1E00001FBC5 /* CAScrollLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A277125D1F04E1E00001FBC5 /* CAScrollLayerView.m */; };
+		A27712611F04E8E70001FBC5 /* CATiledLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A27712601F04E8E70001FBC5 /* CATiledLayerVC.m */; };
+		A27712641F04EE8E0001FBC5 /* CATiledLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A27712631F04EE8E0001FBC5 /* CATiledLayerView.m */; };
+		A27712671F0507CD0001FBC5 /* CAEAGLLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A27712661F0507CD0001FBC5 /* CAEAGLLayerVC.m */; };
+		A277126A1F05F9E40001FBC5 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A27712691F05F9E40001FBC5 /* TestVC.m */; };
 		A2D95CCD1F037F0A009E0C6E /* maohao.png in Resources */ = {isa = PBXBuildFile; fileRef = A2D95CCC1F037F0A009E0C6E /* maohao.png */; };
 		A2D95CD01F03841C009E0C6E /* CATransformLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D95CCF1F03841C009E0C6E /* CATransformLayerVC.m */; };
 		A2D95CD31F0390EE009E0C6E /* CAGradientLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D95CD21F0390EE009E0C6E /* CAGradientLayerVC.m */; };
@@ -57,6 +63,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A27712591F04E1AB0001FBC5 /* CAScrollLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAScrollLayerVC.h; sourceTree = "<group>"; };
+		A277125A1F04E1AB0001FBC5 /* CAScrollLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAScrollLayerVC.m; sourceTree = "<group>"; };
+		A277125C1F04E1E00001FBC5 /* CAScrollLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAScrollLayerView.h; sourceTree = "<group>"; };
+		A277125D1F04E1E00001FBC5 /* CAScrollLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAScrollLayerView.m; sourceTree = "<group>"; };
+		A277125F1F04E8E70001FBC5 /* CATiledLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATiledLayerVC.h; sourceTree = "<group>"; };
+		A27712601F04E8E70001FBC5 /* CATiledLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATiledLayerVC.m; sourceTree = "<group>"; };
+		A27712621F04EE8E0001FBC5 /* CATiledLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATiledLayerView.h; sourceTree = "<group>"; };
+		A27712631F04EE8E0001FBC5 /* CATiledLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATiledLayerView.m; sourceTree = "<group>"; };
+		A27712651F0507CD0001FBC5 /* CAEAGLLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEAGLLayerVC.h; sourceTree = "<group>"; };
+		A27712661F0507CD0001FBC5 /* CAEAGLLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEAGLLayerVC.m; sourceTree = "<group>"; };
+		A27712681F05F9E40001FBC5 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		A27712691F05F9E40001FBC5 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
 		A2D95CCC1F037F0A009E0C6E /* maohao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maohao.png; sourceTree = "<group>"; };
 		A2D95CCE1F03841C009E0C6E /* CATransformLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransformLayerVC.h; sourceTree = "<group>"; };
 		A2D95CCF1F03841C009E0C6E /* CATransformLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransformLayerVC.m; sourceTree = "<group>"; };
@@ -159,6 +177,8 @@
 				A2EB5F971F0248EE00E80ACE /* BasicVC.m */,
 				A2EB5F5F1F023CDF00E80ACE /* ViewController.h */,
 				A2EB5F601F023CDF00E80ACE /* ViewController.m */,
+				A27712681F05F9E40001FBC5 /* TestVC.h */,
+				A27712691F05F9E40001FBC5 /* TestVC.m */,
 				A2EB5F8C1F02416900E80ACE /* CAShapeLayerVC.h */,
 				A2EB5F8D1F02416900E80ACE /* CAShapeLayerVC.m */,
 				A2EB5F8F1F02425900E80ACE /* ShadowsVC.h */,
@@ -174,6 +194,16 @@
 				A2D95CD71F039D24009E0C6E /* CAReplicatorLayerView.h */,
 				A2D95CD81F039D24009E0C6E /* CAReplicatorLayerView.m */,
 				A2D95CDA1F039DCD009E0C6E /* CAReplicatorLayerView.xib */,
+				A27712591F04E1AB0001FBC5 /* CAScrollLayerVC.h */,
+				A277125A1F04E1AB0001FBC5 /* CAScrollLayerVC.m */,
+				A277125C1F04E1E00001FBC5 /* CAScrollLayerView.h */,
+				A277125D1F04E1E00001FBC5 /* CAScrollLayerView.m */,
+				A277125F1F04E8E70001FBC5 /* CATiledLayerVC.h */,
+				A27712601F04E8E70001FBC5 /* CATiledLayerVC.m */,
+				A27712621F04EE8E0001FBC5 /* CATiledLayerView.h */,
+				A27712631F04EE8E0001FBC5 /* CATiledLayerView.m */,
+				A27712651F0507CD0001FBC5 /* CAEAGLLayerVC.h */,
+				A27712661F0507CD0001FBC5 /* CAEAGLLayerVC.m */,
 				A2EB5FB01F02627C00E80ACE /* imgs */,
 				A2EB5F621F023CDF00E80ACE /* Main.storyboard */,
 				A2EB5F651F023CDF00E80ACE /* Assets.xcassets */,
@@ -298,7 +328,7 @@
 				TargetAttributes = {
 					A2EB5F551F023CDF00E80ACE = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = J3AJAYU5N6;
+						DevelopmentTeam = S56P5NFS49;
 						ProvisioningStyle = Automatic;
 					};
 					A2EB5F6E1F023CDF00E80ACE = {
@@ -382,14 +412,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2EB5F911F02425900E80ACE /* ShadowsVC.m in Sources */,
+				A277125B1F04E1AB0001FBC5 /* CAScrollLayerVC.m in Sources */,
 				A2EB5F981F0248EE00E80ACE /* BasicVC.m in Sources */,
 				A2D95CD91F039D24009E0C6E /* CAReplicatorLayerView.m in Sources */,
+				A277126A1F05F9E40001FBC5 /* TestVC.m in Sources */,
+				A277125E1F04E1E00001FBC5 /* CAScrollLayerView.m in Sources */,
 				A2EB5F611F023CDF00E80ACE /* ViewController.m in Sources */,
 				A2EB5F5E1F023CDF00E80ACE /* AppDelegate.m in Sources */,
+				A27712611F04E8E70001FBC5 /* CATiledLayerVC.m in Sources */,
 				A2D95CD31F0390EE009E0C6E /* CAGradientLayerVC.m in Sources */,
 				A2EB5FA11F0255EE00E80ACE /* AnchorPointVC.m in Sources */,
 				A2D95CD01F03841C009E0C6E /* CATransformLayerVC.m in Sources */,
+				A27712641F04EE8E0001FBC5 /* CATiledLayerView.m in Sources */,
 				A2D95CD61F039637009E0C6E /* CAReplicatorLayerVC.m in Sources */,
+				A27712671F0507CD0001FBC5 /* CAEAGLLayerVC.m in Sources */,
 				A2EB5F8E1F02416900E80ACE /* CAShapeLayerVC.m in Sources */,
 				A2EB5F5B1F023CDF00E80ACE /* main.m in Sources */,
 			);
@@ -542,8 +578,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = J3AJAYU5N6;
+				DEVELOPMENT_TEAM = S56P5NFS49;
 				INFOPLIST_FILE = Animations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = otw0909.Animations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -554,8 +591,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = J3AJAYU5N6;
+				DEVELOPMENT_TEAM = S56P5NFS49;
 				INFOPLIST_FILE = Animations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = otw0909.Animations;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -19,8 +19,8 @@
 - (void)setUp {
     UIBezierPath *tPath = [UIBezierPath bezierPath];
     [tPath moveToPoint:CGPointMake(SYS_DEVICE_WIDTH/2.0, 200)];
-    [tPath addQuadCurveToPoint:CGPointMake(SYS_DEVICE_WIDTH/2.0, 400) controlPoint:CGPointMake(SYS_DEVICE_WIDTH/2.0 + 300, 20)];
-    [tPath addQuadCurveToPoint:CGPointMake(SYS_DEVICE_WIDTH/2.0, 200) controlPoint:CGPointMake(SYS_DEVICE_WIDTH/2.0 - 300, 20)];
+    [tPath addQuadCurveToPoint:CGPointMake(SYS_DEVICE_WIDTH/2.0, 300) controlPoint:CGPointMake(SYS_DEVICE_WIDTH/2.0 + 121, 150)];
+    [tPath addQuadCurveToPoint:CGPointMake(SYS_DEVICE_WIDTH/2.0, 200) controlPoint:CGPointMake(SYS_DEVICE_WIDTH/2.0 - 121, 150)];
     [tPath closePath];
     
     // 具体的layer
@@ -46,9 +46,9 @@
 //    _loveLayer.instanceTransform = transform;
     _love.instanceDelay = 1/24.;               // 每隔xs出现一个layer
     _love.instanceColor = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0].CGColor;
-//    _loveLayer.instanceGreenOffset = -0.06;       // 颜色值递减。
-    _love.instanceRedOffset = -0.04;         // 颜色值递减。
-//    _loveLayer.instanceBlueOffset = -0.02;        // 颜色值递减。
+    _love.instanceGreenOffset = -0.02;       // 颜色值递减。
+//    _love.instanceRedOffset = -0.04;         // 颜色值递减。
+//    _love.instanceBlueOffset = -0.02;        // 颜色值递减。
     [_love addSublayer:tView.layer];
     [self.layer addSublayer:_love];
 }

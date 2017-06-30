@@ -72,7 +72,7 @@
 
 - (void)tick {
     //convert time to hours, minutes and seconds
-    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:[NSLocale systemLocale].calendarIdentifier];
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     NSUInteger units = NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond;
     NSDateComponents *components = [calendar components:units fromDate:[NSDate date]];
     CGFloat hoursAngle = (components.hour / 12.0) * M_PI * 2.0;

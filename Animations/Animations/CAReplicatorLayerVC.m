@@ -5,7 +5,7 @@
 //  Created by Arvin on 2017/6/28.
 //  Copyright © 2017年 Arvin. All rights reserved.
 //
-
+//http://www.uml.org.cn/mobiledev/2015091110.asp
 #import "CAReplicatorLayerVC.h"
 #import "CAReplicatorLayerView.h"
 @interface CAReplicatorLayerVC ()
